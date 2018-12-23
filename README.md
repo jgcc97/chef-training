@@ -1,10 +1,10 @@
-# chef-training
+# Chef-Training
 With Chef you can automatize the creation of your environment with simples scripts.
 
 ## Installation
 First you need to install [Docker](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/#extra-steps-for-aufs) and [Docker Compose](https://docs.docker.com/compose/install/).
 
-### How to install Docker
+### How to Install Docker
 1. Update the apt package index:
 ```bash
 sudo apt-get update
@@ -37,7 +37,7 @@ sudo add-apt-repository \
 sudo apt-get install docker-ce
 ```
 
-## Install Docker Compose
+### How to Install Docker Compose
 1. Check the current release and if necessary, update it in the command below:
 ```bash
 sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
