@@ -72,3 +72,7 @@ Next, run the following ```docker-compose``` command to start the containers. Th
 ```bash
 docker-compose up -d
 ```
+Now, start an interactive Bash session on the workstation container.
+```bash
+docker exec -it workstation bash
+```
