@@ -60,3 +60,15 @@ And, move into the directory
 ```bash
 cd ~/try-chef
 ```
+Get the Docker Compose file.
+```bash
+wget https://raw.githubusercontent.com/learn-chef/chef/master/docker-compose.yml
+```
+Next, run the following docker-compose command to retrieve the latest workstation images.
+```bash
+docker-compose pull
+```
+Next, run the following ```docker-compose``` command to start the containers. The ```-d``` argument starts the containers in the background.
+```bash
+docker-compose up -d
+```
