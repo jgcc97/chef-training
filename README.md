@@ -9,3 +9,11 @@ First you need to install Docker and Docker Compose.
 ```bash
 sudo apt-get update
 ```
+2. Install packages to allow apt to use a repository over HTTPS:
+```bash
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    software-properties-common
+```
