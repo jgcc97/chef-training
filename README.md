@@ -36,3 +36,17 @@ sudo add-apt-repository \
 ```bash
 sudo apt-get install docker-ce
 ```
+
+## Install Docker Compose
+1. Check the current release and if necessary, update it in the command below:
+```bash
+sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+```
+2. Set the permissions:
+```bash
+sudo chmod +x /usr/local/bin/docker-compose
+```
+3. Verify that the installation was successful by checking the version:
+```bash
+docker-compose --version
+```
