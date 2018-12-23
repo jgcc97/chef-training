@@ -50,3 +50,13 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```bash
 docker-compose --version
 ```
+
+## Set up the environment
+First you need to create a directory
+```bash
+mkdir chef-training
+```
+And, move into the directory
+```bash
+cd ~/try-chef
+```
