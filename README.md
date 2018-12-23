@@ -4,7 +4,7 @@ With Chef you can automatize the creation of your environment with simples scrip
 ## Installation
 First you need to install [Docker](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/#extra-steps-for-aufs) and [Docker Compose](https://docs.docker.com/compose/install/).
 
-## How to install Docker
+### How to install Docker
 1. Update the apt package index:
 ```bash
 sudo apt-get update
